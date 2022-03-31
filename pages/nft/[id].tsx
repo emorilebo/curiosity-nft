@@ -49,9 +49,11 @@ function NFTDropPage() {
           <h1 className="text-3xl font-bold lg:text-5xl lg:font-extrabold">
             The CuriosityXploring Ape Coding Club | NFT Drop
           </h1>
+          <p className="pt-2 text-xl text-green-500">13 / 21 NFTs claimed</p>
         </div>
 
         {/* Mint Button */}
+        <button className="mt-10 h-16 bg-red-600 w-full text-white rounded-full font-bold">Mint NFT (0.01 EMC)</button>
       </div>
     </div>
   )
